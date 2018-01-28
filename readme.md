@@ -1,3 +1,14 @@
 # Git course
 
-Arquivo da aula de git e github para iniciantes. Ajustes
+Comandos do git:
+
+- git config --list -> lista todas as opções de configuração do git pela linha de comando
+- git init -> inicializa um repositório do git (é utilizado quando criamos um diretório e queremos que ele se torne um repositório git).
+- git add "filename" -> adiciona o arquivo para ser comitado.
+- git add -m "" "filename" -> adiciona o arquivo com possibilidade de colocar uma mensagem no commit
+- git commit "filename" -> comita as alterações do arquivo
+- git log -> mostra o log de ações do repositório
+- git log --decorate -> trás mais informações no log, como branches, merges, etc
+- git shortlog -> mostra um log resumido com autor do commit, com quantas interações e respectivas mensagens
+- git log --graph -> mostra um log com os acontecimentos entre as branches, merges, etc
+- git show "HASH_DO_COMMIT" -> mostra o que aconteceu com os arquivos daquele commit em específico, o que foi adicionado, o que foi modificado, etc.
