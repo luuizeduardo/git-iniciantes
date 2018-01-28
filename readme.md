@@ -16,4 +16,7 @@ Comandos do git:
 - git diff -> mostra as diferenças nos arquivos que foram mexidos. (Usar antes do commit é interessante para ver as mudanças).
 - git diff --name-only -> mostra apenas os nomes dos arquivos que foram modificados.
 - git reset HEAD "filename" ou git reset HEAD -> tira da fila dos arquivos adicionados (arquivos que foram adicionados no stage pelo "git add).
+- git reset --soft -> volta as alterações feitas em um commit feito de forma incorreta e deixa os arquivos no status "modified". * Deve-se escolher um commit antes do feito incorrtamente.
+- git reset --mixed -> volta as alterações feitas em um commit feito de forma incorreta e deixa os arquivos no status "not staged". * Deve-se escolher um commit antes do feito incorrtamente.
+- git reset --hard -> volta as alterações feitas em um commit feito de forma incorreta e remove todas as alterações feitas nos arquivos. * Deve-se escolher um commit antes do feito incorrtamente.
 - git checkout "filename" -> volta o arquivo como era antes das mudanças feitas (usar esse comando antes de comitar as alterações).
