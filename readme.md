@@ -14,3 +14,4 @@ Comandos do git:
 - git show "HASH_DO_COMMIT" -> mostra o que aconteceu com os arquivos daquele commit em específico, o que foi adicionado, o que foi modificado, etc. 
 - git diff -> mostra as diferenças nos arquivos que foram mexidos. (Usar antes do commit é interessante para ver as mudanças)
 - git diff --name-only -> mostra apenas os nomes dos arquivos que foram modificados.
+- git reset HEAD "filename" ou git reset HEAD -> tira da fila dos arquivos adicionados (arquivos que foram adicionados no stage pelo "git add).
