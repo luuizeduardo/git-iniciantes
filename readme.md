@@ -12,7 +12,7 @@ Este é um repositório com comandos básicos do Git e para que servem.
 - __git log__ --decorate -> trás mais informações no log, como branches, merges, etc.
 - __git shortlog__ -> mostra um log resumido com autor do commit, com quantas interações e respectivas mensagens.
 - __git log__ --graph -> mostra um log com os acontecimentos entre as branches, merges, etc.
-- __git show__ "HASH_DO_COMMIT" -> mostra o que aconteceu com os arquivos daquele commit em específico, o que foi adicionado, o que foi modificado, etc. 
+- __git show__ *HASH_DO_COMMIT* -> mostra o que aconteceu com os arquivos daquele commit em específico, o que foi adicionado, o que foi modificado, etc. 
 - __git diff__ -> mostra as diferenças nos arquivos que foram mexidos. (Usar antes do commit é interessante para ver as mudanças).
 - __git diff__ --name-only -> mostra apenas os nomes dos arquivos que foram modificados.
 - __git reset__ HEAD *filename* ou git reset HEAD -> tira da fila dos arquivos adicionados (arquivos que foram adicionados no stage pelo __git add__).
