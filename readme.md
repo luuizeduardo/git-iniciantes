@@ -23,4 +23,4 @@ Este é um repositório com comandos básicos do Git e para que servem.
 - __git remote__: mostra o repositório remoto que o git está ligado.
 - __git remote__ -v: mostra o endereço do git no repositório remoto.
 - __git push__: envia as modificações para o servidor
-- __git push__ -u origin master: indica para qual branch o push deve ir.
+- __git push__ -u origin master: indica para onde eu quero fazer o push. O primeiro parâmetro é o destino e o segundo é o branch que contém a modificação.
