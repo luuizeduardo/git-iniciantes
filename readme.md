@@ -25,3 +25,7 @@ Este é um repositório com comandos básicos do Git e para que servem.
 - __git push__: envia as modificações para o servidor
 - __git push -u origin master__: indica para onde eu quero fazer o push. O primeiro parâmetro é o destino e o segundo é o branch que contém a modificação.
 - __git clone__ *ENDEREÇO_REPOSITÓRIO PASTA_DESTINO*: realiza o clone de um repositório remoto para a sua máquina local.
+- __git checkout -b__ *NOME_BRANCH*: cria um novo branch.
+- __git checkout__ *NOME_BRANCH*: realiza a troca do branch ativo.
+- __git branch__: mostra quais branches existem e em qual você está atualmente.
+- __git branch -D__ *NOME_BRANCH*: apaga o branch.
