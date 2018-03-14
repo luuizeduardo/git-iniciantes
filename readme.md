@@ -24,6 +24,9 @@ Este é um repositório com comandos básicos do Git e para que servem.
 - __git remote -v__: mostra o endereço do git no repositório remoto.
 - __git push__: envia as modificações para o servidor
 - __git push -u origin master__: indica para onde eu quero fazer o push. O primeiro parâmetro é o destino e o segundo é o branch que contém a modificação.
+- __git push origin master --tags__: realiza o push das tags para o servidor remoto.
+- __git push origin :*TAG*__: apaga uma tag criada no repositório remoto.
+- __git push origin :*BRANCH*__: apaga um branch criado no repositório remoto.
 - __git clone__ *ENDEREÇO_REPOSITÓRIO PASTA_DESTINO*: realiza o clone de um repositório remoto para a sua máquina local.
 - __git checkout -b__ *NOME_BRANCH*: cria um novo branch.
 - __git checkout__ *NOME_BRANCH*: realiza a troca do branch ativo.
@@ -31,3 +34,11 @@ Este é um repositório com comandos básicos do Git e para que servem.
 - __git branch -D__ *NOME_BRANCH*: apaga o branch.
 - __git merge__ *NOME_BRANCH*: Faz a junção de um branch com o atual. Este comando cria uma nova linha no gráfico e um novo commit para fazer a união.
 - __git rebase__ *NOME_BRANCH*: Faz a junção de um branch com o atual. Este comando simplesmente faz a junção dos branches, sem criação de um novo commit para isso.
+- __git stash__: grava as modificações que você fez em sua branch, criando um "WIP" (Work In Progress). Depois disso, se realizarmos um __git status__ iremos ver que as modificações anteriores não estão mais aplicadas na branch.
+- __git stash apply__: aplica as modificações que estavam salvas no comando __git stash__ em sua branch atual.
+- __git stash list__: lista os "stashes" feitos até o momento.
+- __git stash clear__: apaga tudo que você gravou em stash.
+- __git tag__: lista as tags criadas no repositório.
+- __git tag -a *VERSÃO* -m *MENSAGEM*__ realiza a criação de uma tag para o seu projeto.
+- __git tag -d *TAG*__: apaga uma tag em seu repositório local.
+- __git revert *HASH_DO_COMMIT*__: cria um novo commit no repositório revertendo algum commit feito de forma incorreta. Geralmente usado quando alguma código quebra e devemos revisá-lo posteriormente, voltando para um estado em que o sistema não gerava problemas.
