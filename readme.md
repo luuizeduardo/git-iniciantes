@@ -29,3 +29,5 @@ Este é um repositório com comandos básicos do Git e para que servem.
 - __git checkout__ *NOME_BRANCH*: realiza a troca do branch ativo.
 - __git branch__: mostra quais branches existem e em qual você está atualmente.
 - __git branch -D__ *NOME_BRANCH*: apaga o branch.
+- __git merge__ *NOME_BRANCH*: Faz a junção de um branch com o atual. Este comando cria uma nova linha no gráfico e um novo commit para fazer a união.
+- __git rebase__ *NOME_BRANCH*: Faz a junção de um branch com o atual. Este comando simplesmente faz a junção dos branches, sem criação de um novo commit para isso.
