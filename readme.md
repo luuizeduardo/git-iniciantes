@@ -22,6 +22,7 @@ Este é um repositório com comandos básicos do Git e para que servem.
 - __git checkout__ *filename*: volta o arquivo como era antes das mudanças feitas (usar esse comando antes de comitar as alterações).
 - __git remote__: mostra o repositório remoto que o git está ligado.
 - __git remote -v__: mostra o endereço do git no repositório remoto.
+- __git remote add origin *ENDERECO_GIT*__: adiciona um repositório remoto ao seu repositório local.
 - __git push__: envia as modificações para o servidor
 - __git push -u origin master__: indica para onde eu quero fazer o push. O primeiro parâmetro é o destino e o segundo é o branch que contém a modificação.
 - __git push origin master --tags__: realiza o push das tags para o servidor remoto.
